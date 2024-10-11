@@ -1,0 +1,158 @@
+.navbar {
+  background-color: white;
+  padding: 16px;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.nav-links a :visited{
+  color: red;
+}
+
+.nav-toggle{
+  display: none;
+}
+
+.nav-toggle{
+  display: block;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media ( max-width:768px){
+  .logo img{
+    height: auto;
+  }
+}
+
+
+
+ul {
+  list-style: none ;
+  padding: auto;
+  display: flex;
+  gap: 20PX;
+  font-size: 20PX;
+}
+
+a {
+ text-decoration: none;
+ color:red;
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
+#container {
+ width: 80%;
+ display: flex;
+ margin: auto;
+ justify-content: space-between;
+ align-items: center;
+}
+
+#text {
+ 
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+#hobby {
+  width: 80%;
+  margin: 100px auto;
+}
+
+#hobby-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10PX;
+  flex-direction: row;
+}
+
+
+.box {
+  width: 25%;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h4 {
+  font-size: 24 px;
+  padding: 0%;
+  margin: 0%;
+}
+
+
+@media  screen and  (max-width:600px){
+  #container {
+    width: 80%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   #container h4{
+    font-size: 16px;
+   }
+
+   #comtainer h1 {
+    font-size: 36px;
+   }
+
+
+  #hobby-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10PX;
+  }
+}
+
+.box {
+  width: 100px;
+  padding: 50px;
+}
+
+
+body{
+  background-color: rgb(255, 255, 255);
+}
